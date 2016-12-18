@@ -209,8 +209,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <None Include="Service References\EmployeeService\EmployeeService.wsdl" />
-    <None Include="Service References\EmployeeService\item.disco" />
+    <None Include="Service References\EmployeeService\EmployeeService.disco" />
     <None Include="Service References\EmployeeService\configuration91.svcinfo" />
     <None Include="Service References\EmployeeService\configuration.svcinfo" />
     <Content Include="Service References\EmployeeService\MvcClient.EmployeeService.Employee.datasource">
@@ -255,13 +254,14 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
-    <None Include="Service References\EmployeeService\item.xsd">
+    <None Include="Service References\EmployeeService\EmployeeService.wsdl" />
+    <None Include="Service References\EmployeeService\EmployeeService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\EmployeeService\item1.xsd">
+    <None Include="Service References\EmployeeService\EmployeeService1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\EmployeeService\item2.xsd">
+    <None Include="Service References\EmployeeService\EmployeeService2.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
